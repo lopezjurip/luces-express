@@ -40,7 +40,7 @@ app.route('/notes')
     Object.assign(notes, content)
 
     // Send all the current information
-    return res.send({ notes })
+    return res.send(notes)
   })
 
 // Show message when a client connect
