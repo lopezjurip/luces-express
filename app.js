@@ -29,7 +29,7 @@ app.route('/notes')
   })
   .post((req, res) => {
     const content = req.body
-    console.log('content', content)
+    console.log('Content:', content)
 
     if (!content) return res.send(400);
 
